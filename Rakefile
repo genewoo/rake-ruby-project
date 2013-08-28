@@ -12,6 +12,6 @@ task default:[:test]
 #rake test TESTOPTS="--runner=fox"   # use the fox test runner
 Rake::TestTask.new do |t|
   t.libs << "test"
-  t.test_files = FileList['test/**test.rb']
+  t.test_files = FileList['test/test**.rb']
   # t.verbose = true
 end
