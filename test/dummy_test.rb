@@ -21,20 +21,20 @@ class DummyTest < MiniTest::Unit::TestCase
   end
 end
 
-# describe "Dummy Spec" do
-#   before do
-#     @dummy = Dummy.new
-#   end
+describe "Dummy Spec" do
+  before do
+    @dummy = Dummy.new
+  end
 
 
-#   describe "test dummy" do
-#     it "must nil before initial value" do
-#       @dummy.dummy.nil?.must_equal true
-#     end
+  describe "test dummy" do
+    it "must nil before initial value" do
+      @dummy.dummy.nil?.must_equal true
+    end
 
-#     it "must equals value passed in" do
-#       @dummy.value = :abc
-#       @dummy.dummy.must_equal :abc
-#     end
-#   end
-# end
+    it "must equals value passed in" do
+      @dummy.value = :abc
+      @dummy.dummy.must_equal :abc
+    end
+  end
+end
