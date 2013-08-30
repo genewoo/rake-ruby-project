@@ -5,3 +5,4 @@ git add .gitignore
 git ci -am "add .gitignore"
 git add *
 git ci -am "add other files"
+rm implode.sh
