@@ -3,9 +3,9 @@ require 'minitest/autorun'
 require 'simplecov'
 
 #minitest color
-require 'minitest/ansi'
+#require 'minitest/ansi'
 
-MiniTest::ANSI.use!
+#MiniTest::ANSI.use!
 
 SimpleCov.start
 
